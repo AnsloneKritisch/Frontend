@@ -1,5 +1,6 @@
 {
     "liveServer.settings.multiRootWorkspaceName": "Frontend" ,
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "editor.mouseWheelZoom": true
 
 }
