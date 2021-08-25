@@ -57,12 +57,74 @@
         1. type -> 	disc,circle,square −> Specifies the style of the bullet.
         2. compact -> compact -> Defines if compact rendering is required.
     -->
-    <ul type="disc">
+    
+    <p> First Type of unorder list is disc </p>
+    <ul type="disc" compact="compact">
         <li> This is first item of my unorder list </li> 
         <li> This is second item of my unorder list </li>
         <li> This is third item of my unorder list </li>
     </ul>
-    <ol> <!-- This tag mainly use to present ordered list (1,2,3) -->
+     
+    <p> First Type of unorder list is circle </p>    
+    <ul type="circle" compact="compact">
+        <li> This is first item of my unorder list </li> 
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ul>
+    
+    <p> First Type of unorder list is square </p>
+    <ul type="square" compact="compact">
+        <li> This is first item of my unorder list </li> 
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ul>
+
+    <!--
+    The HTML <ol> tag also supports the following additional attributes :-
+     Sl.no -> Attribute ->	Value -> Description
+     1. -> reversed -> reversed -> Specifies that the list order should be reversed (9,8,7...) .
+     2. -> start ->	number -> Specifies the start value of an ordered list .
+     3. -> type -> 1,A,a,I,i -> Specifies the kind of marker to use in the list .
+    -->
+
+    <p> First Type of unorder list is disc </p>
+    <ol type="1">
+        <li> This is first item of my unorder list </li>
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ol>
+   
+    <ol type="A">
+        <li> This is first item of my unorder list </li>
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ol>
+   
+    <ol type="a">
+        <li> This is first item of my unorder list </li>
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ol>
+   
+    <ol type="I">
+        <li> This is first item of my unorder list </li>
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ol>
+   
+    <ol type="i">
+        <li> This is first item of my unorder list </li>
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ol>
+   
+    <ol type="1" start="11" >
+        <li> This is first item of my unorder list </li>
+        <li> This is second item of my unorder list </li>
+        <li> This is third item of my unorder list </li>
+    </ol>
+   
+    <ol type="1" reversed="reversed" >
         <li> This is first item of my unorder list </li>
         <li> This is second item of my unorder list </li>
         <li> This is third item of my unorder list </li>
