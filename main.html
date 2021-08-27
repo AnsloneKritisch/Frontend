@@ -12,7 +12,111 @@
     <script src="anshu.js"> </script>
 </head>
 <body>
-    <p> Type of unorder list is disc </p>
+    <p> Creating Form </p>
+    <h2> Form </h2>
+
+    <form action="backend.php">
+        <div>
+            Name :<input type="text">
+        </div>
+        <br>
+        <div>
+            Role : <input type="text">
+        </div>
+       <br>
+        <div>
+            Email : <input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            date :<input type="date" name="date">
+        </div>
+        <br>
+       <div>
+           Bonus: <input type="number" name="" id="">
+        </div>
+        <br>
+        <div>
+            Are u Eligible : <input type="checkbox" name="myeligibility">
+        </div>
+        <br>
+        <div>
+            Are u Indian : <input type="checkbox" name="myeligibility" checked >
+        </div>
+        <br>
+        country : <select name="mycon">
+            <option value="no" selected> Choose Your Country </option>
+            <option value="America"> America </option>
+            <option value="China"> China  </option>
+        </select>
+        <br>        
+        <div>
+            Gender : <input type="radio" name="mygender"> Male <input type="radio" name="mygender" > Female <input type="radio" name="mygender"> other
+       </div>
+       <br>
+       <div>
+           Write About youself : <br><textarea name="mytext" cols="30" rows="10"></textarea>
+       </div>
+       <br>
+       <div>
+           <input type="submit" value="Submit Now ">
+           <input type="reset" value="Reset Now ">
+       </div>
+       <br>
+    </form>
+   <p> Form in advance mode </p>          
+    <form action="backend.php">
+        <label for="name"> Name </label>
+        <div>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <label for="role"> Role </label>
+        <div>
+            <input type="text" id="role">
+        </div>
+       <br>
+       <label for="email"> E-Mail </label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <label for="date"> Date </label>
+        <div>
+            <input type="date" name="date" id="date">
+        </div>
+        <br>
+        <label for="bonus"> Bonus </label>
+       <div>
+           <input type="number" name="number" id="bonus">
+        </div>
+        <br>
+        <label for="ele"> Are you Eligible </label>
+        <div>
+            <input type="checkbox" name="myeligibility" id="ele">
+        </div>
+        <br>
+        <label for="indi"> Are u Indian </label>
+        <div>
+            <input type="checkbox" name="myeligibility" id="indi" checked >
+        </div>
+        <br>
+        <label for="gen"> Gender </label>
+        <div>
+            <input type="radio" name="mygender"> Male <input type="radio" name="mygender" > Female <input type="radio" name="mygender"> other
+       </div>
+       <br>
+       <label for="way">  Write About youself </label>
+       <div>
+           <br><textarea name="mytext" cols="30" rows="10" id="way"></textarea>
+       </div>
+       <br>
+       <div>
+           <input type="submit" value="Submit Now ">
+           <input type="reset" value="Reset Now ">
+       </div>
+       <br>
+    </form>
              
     
 </body>
