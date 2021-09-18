@@ -1,0 +1,28 @@
+Notes for CSS 
+______________
+
+
+CSS stands for Cascading Style Sheets.
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+CSS gives style to raw htmal 
+CSS is used to make our page responsive
+
+p { color : blue ;}
+here p is selector 
+color is property
+blue is value
+
+we can even use the group of selector.
+{  } -> all elements are give inside the bracket is called the block.
+
+
+The three ways to add css :
+1) Inline CSS : Css is added to the element directly using style attribute .
+2) Internal CSS : Css is kept under the the header tag in <style> tags .
+3) External CSS : Css is kept sepratly inside a .css style sheet .
+
+The maximum value is given to inline css then to Internal and External .
+out of internal and External css which one written at last would be applied .
+
+
