@@ -26,3 +26,17 @@ The maximum value is given to inline css then to Internal and External .
 out of internal and External css which one written at last would be applied .
 
 
+What is a css Selectors ?
+1) CSS selectors are used to find the element whose property will be set.
+2) Selectors are used to target the html elements .
+3) Selectors makes it easy for us to eaisly target single /muntiple html elementsin the markup
+
+Types of Basic CSS selectors :-
+1) CSS element selectors
+2) CSS id selectors
+3) CSS class selectors
+4) The CSS grouping selectors
+
+
+
+
