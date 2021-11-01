@@ -42,6 +42,3 @@ If we want to add css using id the we should use #Name_of_id{add_the_css} in sty
 If we want to add css usindg class tag then we have to use .Name_of_id{add_the_css} in style tag after the title tag and before the end of head tag.
 WE acan add two or more classes in single tag.
 
-
-
-
